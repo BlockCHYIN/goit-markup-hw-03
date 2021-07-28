@@ -299,6 +299,7 @@ a {
   text-align: center;
   cursor: pointer;
   color: var(--secondary-text-color);
+  border: transparent;
 }
 
 .filter-button:hover,
@@ -349,10 +350,6 @@ img {
   display: block;
 }
 
-.portfolio-text {
-  margin-top: 4px;
-}
-
 .portfolio-title {
   margin-bottom: 4px;
   font-weight: bold;
@@ -376,7 +373,7 @@ img {
 }
 
 .website {
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -395,6 +392,10 @@ img {
   color: var(--accent-text-color);
 }
 
+.address {
+  margin-top: 20px;
+}
+
 .footer-address {
   margin-bottom: 9px;
   font-size: 14px;
@@ -403,7 +404,6 @@ img {
 }
 
 .footer-main {
-  margin-top: 20px;
   font-style: normal;
 }
 
